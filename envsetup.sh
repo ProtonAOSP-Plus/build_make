@@ -1862,3 +1862,4 @@ if [ -z ${CCACHE_EXEC} ]; then
     fi
 fi
 
+export ANDROID_BUILD_TOP=$(gettop)
